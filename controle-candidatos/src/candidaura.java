@@ -12,7 +12,8 @@ public class candidaura {
        }
         
 
-    }
+    }/* */
+    
     static  void entrandoEmContato(String candidato){
         int tentativasRealizadas =1;
         boolean contnuarTenando = true;

@@ -9,6 +9,7 @@ public class Contador {
 		System.out.println("Digite o segundo parâmetro");
 		int parametroDois = terminal.nextInt();
 		
+		
 		try {
 			//chamando o método contendo a lógica de contagem
 			contar(parametroUm, parametroDois);

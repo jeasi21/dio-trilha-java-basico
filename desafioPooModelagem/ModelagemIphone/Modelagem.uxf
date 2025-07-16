@@ -1,0 +1,28 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>320</x><y>80</y><w>100</w><h>80</h></coordinates><panel_attributes>Iphone
+-
+-
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>80</x><y>260</y><w>150</w><h>130</h></coordinates><panel_attributes>&lt;&lt;interface&gt;&gt;
+ReprodutorMusical
+-
++Tocar(): void
++Pausar(): void
++SelecionarMusica
+(musica: String): void
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>290</x><y>260</y><w>150</w><h>130</h></coordinates><panel_attributes>&lt;&lt;interface&gt;&gt;
+AparelhoTelefonico
+-
++ Ligar(numero: 
+String): void
++ Atender(): void
++ IniciarCorreio
+Voz(): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>490</x><y>260</y><w>150</w><h>130</h></coordinates><panel_attributes>&lt;&lt;interface&gt;&gt;
+NavegadorInternet
+-
++ ExibirPagina
+(url: String): void
++ AdicionarNova
+Aba(): void
++ AtualizarPagina(): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>130</x><y>100</y><w>210</w><h>180</h></coordinates><panel_attributes>lt=&lt;-
+implaments</panel_attributes><additional_attributes>20;160;20;20;190;20</additional_attributes></element><element><id>Relation</id><coordinates><x>360</x><y>150</y><w>100</w><h>130</h></coordinates><panel_attributes>lt=&lt;-
+implaments</panel_attributes><additional_attributes>10;110;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>410</x><y>100</y><w>200</w><h>180</h></coordinates><panel_attributes>lt=&lt;-
+implements</panel_attributes><additional_attributes>160;160;160;20;10;20</additional_attributes></element></diagram>
